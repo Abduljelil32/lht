@@ -1,0 +1,13 @@
+.panel-heading h2, .panel-heading .avatar { display: inline; }
+.board-cert { display:block; font-weight:bold; }
+.patients { margin-top: 10px; }
+.fa { padding-left:0px; }
+.avatar { float: left; margin-bottom: 5px; width: 60px; height: 60px; border-radius: 50%; overflow: hidden;}
+.avatar img { width: 60px; }
+.cb2 { float:left; margin-right: 15px; margin-bottom: 0px; }
+.lang-text { margin:0px; font-weight:bold; }
+.faa-result.active, #faa-search-button{cursor:pointer;}
+#faa-results .title{ float:left;margin-left: 10px; margin-top: 7px;}
+/*#faa-results .bio { float: left; }*/
+
+body.page-faa #map-body .panel-heading .row{ overflow-y:hidden;}

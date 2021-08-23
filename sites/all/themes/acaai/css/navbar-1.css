@@ -1,0 +1,51 @@
+
+.find_allergist {
+	background: url(../images/find-icon.png) #ff8c24 no-repeat left center;
+	background-position: 10px 15px;
+}
+input[type="text"].find_allergist__nav-input {
+  margin: -3px 8px 0 12px;
+  color: #222222;
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  border: 0;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 150;
+}
+
+@media (max-width: 991px) {
+  .internal-cta li {
+  	margin-left: 8px;
+    min-width: 0;
+  }
+  .internal-cta  .find_allergist {
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .internal-cta .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+@media (max-width: 560px) {
+  .find_allergist__nav-input {
+    width: 120px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sticky .find_allergist {
+		background: #ff8c24;
+  }
+	.sticky .find_allergist span {
+		display: none;
+	}

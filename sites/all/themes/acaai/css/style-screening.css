@@ -1,0 +1,93 @@
+/*William's New Style*/
+a img{
+	border:none;
+	}
+p{
+	margin-bottom:10px;
+	font-size:12px;
+	color:#333;
+	}
+.left{
+	float:left;
+	}
+.right{
+	float:right;
+	}	
+.blue{
+	color:#2886c0;
+	}
+.red{
+	color:#FF1818;
+	text-shadow:0px 1px 2px rgba(0, 0, 0, .5);
+	}
+.orange{
+	color:#F88101;
+	}
+.hide{
+	display:none;
+	}
+.col_1{
+	width:650px;
+	float:left;
+	}
+		.col_2{
+			float:right;
+			}
+		
+		#content #cta_col{
+			width:230px;
+			margin:0;
+			margin-top:20px;
+			background-color:#F1F1F1;
+			padding:10px;
+			}
+			
+		.sbHeader{
+			background: url(../images/greyHeader.html) bottom repeat-x;
+			padding:10px;
+			border-bottom:1px solid #999;
+			margin:-10px -10px 10px;
+			}	
+			
+		.sidebarWidget{
+			padding:10px 5px;
+			border:1px solid #73b7e4;
+			border-radius:3px;
+			margin-bottom:10px;
+			background:#B5DAEC url(../images/bg_bluegradient.html) bottom repeat-x;
+			color:#fff;
+			text-shadow:1px 1px 1px #000;
+			min-height:80px;
+			}
+		.sidebarWidget h3{
+			margin:0;
+			margin-bottom:5px;
+			padding:0;
+			font-weight:bold;
+			}
+		
+		form#ana-checklist, .paper {
+			margin-top:20px;
+			padding:5px;
+			background:#EEE;
+			border:1px solid #eee;
+			font-size:12px;
+			color:#444;
+			}
+		form#ana-checklist table, .paper-content{
+			background:#fff;
+			padding:5px 10px 10px;
+			}
+		form#ana-checklist table td, form#ana-checklist table th{
+			padding:10px 0;
+			vertical-align:top;
+			}
+		.shadow{
+			height:30px;
+			background: url(../images/page-shadow.html) center top no-repeat;
+			}
+		hr{
+			border:none;
+			border-bottom:1px dotted #aaa;
+			}
+		

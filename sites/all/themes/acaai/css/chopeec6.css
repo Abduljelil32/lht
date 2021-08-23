@@ -1,0 +1,953 @@
+
+
+body { padding-bottom: 70px; height: 100%; font-size: 15px; line-height: 1.55em; color: #646464;}
+
+@media (max-width: 768px) {
+    body{font-size: 14px;}
+}
+
+@media (max-width: 480px) {
+    body{font-size: 13px;}
+
+    h3 {font-size: 16px;}
+}
+
+body {
+position: relative;
+}
+h1, h2, h3, h4 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
+a {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+a:hover {
+	text-decoration: none;
+}
+.lead {
+	color: #9e9e9e;
+}
+.light-copy p {
+	color: #828282;
+}
+.fa {
+	display: block;
+	padding: 5px;
+}
+.wrap {
+	min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -100px;
+}
+.container {
+	height: 100%;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Bootstrap Hacks */
+@media (min-width: 992px) {
+    .col-md-10 {
+        margin-left: 16.5%; /*Or float:right;*/
+    }
+}
+
+
+.hero-news-article h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0px;
+	padding-bottom: 20px;
+}
+.hero-news-article .container {
+	padding: 25px 35px 25px 35px;
+}
+.hero-news-article a {
+	color: #fff;
+}
+.hero-news-article h3 {
+	font-family: 'Crimson Text', serif;
+	font-size: 25px;
+}
+.hero-news-article p {
+	display: block;
+	font-size: 18px;
+}
+
+.internal-cta {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 52px;
+	background: url(../images/cta-bg.png) repeat;
+}
+.internal-cta a {
+	color: #fff;
+	font-size: 14px;
+}
+.internal-cta a:hover {
+	text-decoration: underline;
+}
+.internal-cta .container {
+	height: 52px;
+	padding: 0 !important;
+}
+#navbar-min {
+	display: none;
+}
+.logo-min {
+	background: url(../images/allergist-logo-min.png) no-repeat;
+	width: 90px;
+	height: 43px;
+}
+#menu-min {
+	display: none;
+	width: 90px;
+	height: 43px;
+}
+
+/* Home Page Items */
+.home-mid-section {
+	background: #0075a3;
+	padding: 25px 0 15px 0;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+.home-mid-section img {
+	float: left;
+	padding: 15px 15px 80px 0;
+}
+.home-mid-section p {
+  margin-left: 85px;
+}
+
+.home-mid-section a, .home-mid-section h3 {
+	color: #a0e0f9;
+}
+.home-mid-section a:hover {
+	color: #6cc1e2;
+	text-decoration: none;
+}
+.home-module-section {
+	padding-bottom: 15px;
+	background: -moz-linear-gradient(top,  rgba(221,221,221,0) 0%, rgba(234,234,234,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(221,221,221,0)), color-stop(100%,rgba(234,234,234,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(221,221,221,0) 0%,rgba(234,234,234,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(221,221,221,0) 0%,rgba(234,234,234,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(221,221,221,0) 0%,rgba(234,234,234,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(221,221,221,0) 0%,rgba(234,234,234,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dddddd', endColorstr='#a6eaeaea',GradientType=0 ); /* IE6-9 */
+}
+
+.home-module h3 {
+	color: #50a7cb;
+	font-size: 18px;
+	font-weight: 500;
+	padding-bottom: 10px;
+	border-bottom: 1px #abe7ff solid;
+	width: 320px;
+}
+.home-module button {
+	margin-top: 20px;
+}
+.home-module li {
+	padding: 12px 0 5px 0;
+	border-bottom: 1px solid #e6e6e6;
+	max-width: 320px;
+	line-height: 18px;
+}
+.home-module li>a {
+	color: #5b5b5b;
+	font-size: 15px;
+}
+.home-module li>span {
+	display: block;
+	color: #9f9f9f;
+	font-size: 12px;
+}
+.headline-image {
+	overflow: hidden;
+	position: relative;
+	height: 179px;
+	min-width: 320px;
+	display: table;
+}
+.headline-image span {
+	font-size: 12px;
+	display: block;
+	padding: 0;
+}
+.headline-image h4 {
+	padding: 0;
+	margin-top: 0;
+}
+.headline-image a {
+	color: #fff;
+	font-size: 17px;
+}
+.image-copy {
+	width: 220px;
+}
+.image-bg {
+	height: 179px;
+    position: absolute;
+	z-index: -100;
+	max-width: 320px;
+}
+.image-gradient {
+	height: 179px;
+	padding: 0 10px 5px 10px;
+    display: table-cell;
+	vertical-align: bottom;
+	bottom: 0;
+	color: #fff;
+	z-index: 100;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 25%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 25%,rgba(0,0,0,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+.image-bg img {
+	z-index: -100;
+}
+.tool-section {
+	text-align: center;
+	padding: 25px 0 25px 0;
+	line-height: 18px;
+}
+.tool-section img {
+	margin: 0 auto;
+}
+.tool-section h3>a {
+	color: #50a7cb;
+	font-size: 18px;
+	font-weight: 500;
+}
+.hero-unit {
+	color: #fff;
+}
+
+#content .hero-home {
+  background: url(../images/hero-image.jpg) center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1100px;
+  min-height: 500px;
+}
+#content .hero-home .cta-header {
+	background: url(../../../../default/files/hero-area-bg.png) no-repeat;
+	width: 974px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 250px;
+	text-align: center;
+}
+@media (max-width: 992px) {
+  #content .hero-home .cta-header {
+		margin: 0 auto;
+		background: url(../images/cta-bg.png) repeat;
+		box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+		-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+		-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+		height: 100%;
+		width: 100%;
+		margin-top: 150px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}
+#content  .hero-home .cta-header h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 1px 1px 1px #333;
+}
+/* Home Hero Buttons */
+#content  .cta-header button {
+	padding: 10px 15px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	max-height: 43px;
+	margin-bottom: 10px;
+}
+#content  .cta-header button>img {
+	padding-right: 7px;
+}
+.btn-fa {
+  color: #ffffff;
+  background-color: #FF8C24;
+  border-color: #FF8C24;
+}
+.btn-fa:hover,
+.btn-fa:focus,
+.btn-fa:active,
+.btn-fa.active,
+.open .dropdown-toggle.btn-fa {
+  color: #ffffff;
+  background-color: #E37616;
+  border-color: #FF8C24;
+}
+
+.btn-hcp {
+  color: #FFFFFF;
+  background-color: #B02727;
+  border-color: #B02727;
+}
+.btn-hcp:hover,
+.btn-hcp:focus,
+.btn-hcp:active,
+.btn-hcp.active,
+.open .dropdown-toggle.btn-hcp {
+  color: #FFFFFF;
+  background-color: #9C2424;
+  border-color: #B02727;
+}
+.btn-outline {
+  color: #D2F2FF;
+  background-color: transparent;
+  border-color: #D2F2FF;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.open .dropdown-toggle.btn-outline {
+  color: #91cde5;
+  background-color: transparent;
+  border-color: #91cde5;
+}
+
+/* Treaments Page */
+.steps-module {
+	height: 490px;
+	width: 100%;
+	border: #ccc 1px solid;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	overflow: hidden;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.steps-module p {
+	padding: 0 15px 0 15px;
+	font-size: 14px;
+}
+.steps-module button {
+	margin: 0 10px 10px 10px;
+}
+.steps-module img {
+	min-width: 100%;
+}
+
+/* ALWAYS COLLAPSED */
+@media (max-width: 2000px) {
+    .internal-cta .navbar-header {
+        float: none;
+    }
+    .internal-cta .navbar-left, .internal-cta .navbar-right {
+        float: none !important;
+    }
+    .internal-cta .navbar-toggle {
+        display: block;
+    }
+    .internal-cta .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .internal-cta .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .internal-cta .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .internal-cta .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .internal-cta .navbar-nav>li {
+        float: none;
+    }
+    .internal-cta .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .internal-cta .collapse.in{
+        display:block !important;
+    }
+    .internal-cta .navbar-default .navbar-toggle {
+		background-color: transparent !important;
+	}
+	.internal-cta .navbar-nav li a:hover {
+		background: #0768ab;
+		color: #fff;
+	}
+}
+
+
+.internal-cta .navbar-default {
+	border: none;
+	background: transparent;
+}
+.internal-cta .navbar-toggle {
+	float: left;
+	margin-left: 10px;
+	border: none;
+}
+.internal-cta .icon-bar {
+	background-color: #fff !important;
+	height: 4px;
+}
+.internal-cta .navbar-default .navbar-collapse {
+	background: url(../images/cta-bg.png) repeat;
+	min-width: 250px;
+	z-index: 150;
+}
+.internal-cta ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.internal-cta a {
+	font-weight: 700;
+}
+.internal-cta li {
+	margin-left: 35px;
+	padding: 15px 10px 10px 35px;
+	float: right;
+	height: 52px;
+	min-width: 175px;
+	text-align: left;
+}
+.internal-cta .navbar-nav li {
+	float: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 17px;
+	padding: 0;
+	margin: 0;
+}
+.internal-cta .navbar-nav li a {
+	color: #fff;
+}
+.ask_allergist {
+	background: url(../images/ask-icon.png) no-repeat left center;
+}
+.symp_test {
+	background: url(../images/symptons-icon.png) no-repeat left center;
+}
+.find_allergist {
+	background: url(../images/find-icon.png) #ff8c24 no-repeat left center;
+	background-position: 10px 15px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 150;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    height: 100%;
+    min-height: 100%;
+    background-image:
+      linear-gradient(
+      to right,
+      #fff, #f5f5f5
+    );
+    color: #fff;
+    position: absolute !important;
+}
+
+.sidebar a {
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+.sidebar_content {
+	padding-top: 20px;
+}
+.sidebar_content li.active {
+  	background: #e9e9e9;
+}
+
+.subnav_dropdown {
+	padding: 30px 0 0 15px;
+	width: 100%
+	text-align: center;
+}
+.subnav_dropdown select {
+	width: 300px;
+}
+
+/* Content */
+#main {
+	height: 100%;
+	padding-bottom: 50px;
+}
+@media (min-width: 992px) {
+	#main {
+		padding-left: 70px;
+	}
+}
+#content {
+	line-height: 26px;
+	position: relative;
+	height: 100%;
+}
+#content #main a {
+	color: #e68028;
+}
+#content img {
+}
+#content h2 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 38px;
+	color: #079eda;
+}
+#content #main ul {
+	list-style: none;
+	margin: 20px 0 30px 10px;
+	padding: 0 0 0 15px;
+	border-left: #f4f4f4 3px solid;
+}
+#content #main li {
+	padding-bottom: 10px;
+}
+.img_float_r {
+	padding: 10px 0 25px 25px;
+	float: right;
+}
+.img_float_l {
+	padding: 10px 25px 25px 0;
+	float: right;
+}
+@media (max-width: 750px) {
+	.img_float_r {
+		padding: 0 0 15px 0;
+	}
+	.img_float_l {
+		padding: 0 0 15px 0;
+	}
+}
+
+.img-center {
+    margin: 0 auto;
+}
+.items-center {
+	text-align: center;
+}
+.items-center img {
+	margin: 0 auto;
+}
+
+.section-spacing {
+	margin-bottom: 50px;
+}
+
+.sections div {
+	padding: 30px 0 40px 0;
+}
+.content-section {
+	min-height: 400px;
+}
+
+.content-section .col-md-6 {
+	padding: 0;
+}
+@media (max-width: 1200px) {
+	.content-section h2 {
+		padding-top: 5px;
+	}
+	.content-section {
+	padding-bottom: 50px;
+	}
+}
+@media (max-width: 400px) {
+	.content-section {
+		text-align: center;
+	}
+	.content-section .img-responsive {
+		border-radius: 50%;
+		padding-top: 15px;
+		vertical-align: middle;
+	}
+	.content-section .fade-image-r, .content-section .fade-image-l {
+		background: transparent;
+	}
+}
+
+.types-of-allergies p {
+	padding-bottom: 50px;
+}
+.types-of-allergies h2 {
+	padding-top: 50px;
+}
+.types-of-allergies .img-responsive {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.org-border {
+	height: 3px;
+	width: 80px;
+	background: #ff8c24;
+	margin: 40px auto;
+}
+.find_tool {
+	background: url(../images/Find-an-allergist-near-you1_BG.png) #6caad3 no-repeat;
+	max-width: 647px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	min-height: 175px;
+	padding: 25px;
+}
+.find_tool h1 {
+	font-family: 'Nunito', sans-serif;
+	margin: 0px;
+	color: #fff;
+}
+.find_tool h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0px;
+	color: #fff;
+}
+.find_tool form {
+	padding-top: 15px;
+}
+.find_tool input {
+	max-width: 300px;
+	float: left;
+	margin-right: 5px;
+}
+.btn-warning {
+	background-color: #ff8c24;
+}
+.treatments-section {
+    margin-bottom: 40px;
+}
+.treatments-section .img-responsive {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Select Dropdown */
+.selectbox {
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  border: 1px solid #aeaeae;
+  background: #e6e6e6;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #e6e6e6));
+  background-image: linear-gradient(top, white, #e6e6e6);
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.selectbox select {
+  z-index: 10;
+  position: relative;
+  border: none;
+  background: none;
+  outline: none;
+  opacity: 0;
+  height: 32px;
+  -webkit-appearance: none;
+  filter: alpha(opacity=0);
+}
+
+.selecttext {
+  z-index: 9;
+  position: absolute;
+  left: 5px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding-top: 4px;
+  background: transparent;
+  color: #666;
+}
+
+.select-arrow {
+  background: url(../images/caret.png) no-repeat 50% 50%;
+  position: absolute;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  height: 100%;
+  width: 26px;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #d6d6d6; }
+
+
+
+
+
+/* Ask an Allergist */
+.ask-allergist .aa-circle {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border: 2px #eee solid;
+	border-radius: 100px;
+}
+.ask-allergist img {
+	width: 150px;
+	height: 102px;
+	margin: 0 0 0 -25px;
+}
+.ask-allergist h4 {
+	padding: 15px 0 0 15px;
+	width: 200px;
+}
+.ask-allergist .clearfix {
+	padding-bottom: 45px;
+	text-align: left;
+}
+/* Panels */
+/*
+#main .panel-heading {
+	border: none;
+	padding: 0 0 15px 0;
+}
+#main .panel-heading h2 {
+	color: #50a7cb;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#main .panel, .panel-default {
+	margin: 0;
+	background: #f8f8f8;
+	border: none;
+	border-bottom: #e6e6e6 1px solid;
+	border-radius: 0;
+}
+#main .panel {
+	padding: 15px 40px;
+	border-radius: 0;
+}
+#main .panel button {
+	margin-top: 15px;
+}
+#main .panel-heading {
+	border-radius: 0;
+	color: #333;
+}
+#main .panel-heading span {
+    margin-top: -20px;
+    font-size: 15px;
+}
+#main .panel, .filters .panel-body {
+	background: #fff;
+}
+#main .clickable {
+    cursor: pointer;
+}
+*/
+
+/* Blue-Section */
+#blue-section {
+	background: url(../images/faa-map-bg.png) no-repeat left center #079eda;
+	padding: 25px 15px 25px 15px;
+	min-height: 400px;
+	color: #fff;
+}
+#blue-section h2 {
+  	color: #fff !important;
+}
+#blue-section a {
+  	color: #fff;
+}
+#blue-section a:hover {
+  	color: #e6eff6;
+}
+
+/* Pre-Footer */
+#pre-footer {
+	background: #e6eff6;
+	padding: 25px 15px 25px 15px;
+	min-height: 400px;
+}
+#related_articles h3 {
+  	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+
+.hero-faa-home {
+  background: url(../images/faa-bubble-bg.png) no-repeat right top;
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, rgb(54,161,210);
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, -moz-linear-gradient(top, rgba(54,161,210,1) 0%, rgba(0,108,158,1) 100%);
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(54,161,210,1)), color-stop(100%,rgba(0,108,158,1)));
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, -webkit-linear-gradient(top, rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%);
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, -o-linear-gradient(top, rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%);
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, -ms-linear-gradient(top, rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%);
+  background: url(../images/faa-bubble-bg.png) no-repeat right top, linear-gradient(to bottom, rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36a1d2', endColorstr='#006c9e',GradientType=0 );
+  position: relative;
+  width: 100%;
+  min-height: 814px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.allergist-landing .region-full-width #block-block-9 .content, #block-block-10 .content {
+  width: 100%;
+  padding: 0;
+}
+.allergist-landing #main-body > .row {
+  display: none;
+}
+.hero-faa-home .form {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 280px;
+	border-radius: 10px;
+	height: 100%;
+	padding: 40px 25px 20px;
+	background: rgb(0,114,163); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,114,163,1) 0%, rgba(0,74,112,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,114,163,1)), color-stop(100%,rgba(0,74,112,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0072a3', endColorstr='#004a70',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+}
+.hero-faa-home .form .lead {
+	padding: 20px 0 0 10px;
+	color: #fff;
+}
+.hero-faa-home form {
+	box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+}
+.hero-faa-home .form button {
+	color: #fff;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.hero-faa-home .form input {
+	height: 50px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.hero-faa-home .form .input-group {
+	margin-top: 10px;
+}
+
+
+/* FAA Sponsored by */
+.faa_sponsored-by {
+  font-size: 14px;
+  font-weight: 100;
+  color: #eaeaea;
+  text-shadow: 1px 1px #000000;
+  margin-top: 30px;
+  text-align: right;
+}
+.faa_sponsored-by img {
+  margin-top: 2px;
+  margin-left: 20px;
+  max-width: 150px;
+  vertical-align: top;
+}
+.faa_sponsored-by .logo-2 img {
+	max-width: 90px;
+	margin-top: 6px;
+  margin-left: 20px;
+}
+
+
+@media (max-width: 480px) {
+	.hero-faa-home {
+		background: rgb(54,161,210); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(54,161,210,1) 0%, rgba(0,108,158,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(54,161,210,1)), color-stop(100%,rgba(0,108,158,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(54,161,210,1) 0%,rgba(0,108,158,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36a1d2', endColorstr='#006c9e',GradientType=0 ); /* IE6-9 */
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		min-height: 350px;
+		color: #fff;
+	}
+	.hero-faa-home .form {
+		max-width: 1000px;
+		margin: 0 auto;
+		margin-top: 30px;
+		border-radius: 10px;
+		height: 100%;
+		padding: 25px;
+		background: rgb(0,114,163); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(0,114,163,1) 0%, rgba(0,74,112,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,114,163,1)), color-stop(100%,rgba(0,74,112,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,114,163,1) 0%,rgba(0,74,112,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0072a3', endColorstr='#004a70',GradientType=0 ); /* IE6-9 */
+	}
+	.hero-faa-home .form .lead {
+		padding: 20px 0 0 10px;
+		display: inline-block;
+		color: #fff;
+	}
+	.hero-faa-home .form button {
+		color: #fff;
+		height: 40px;
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.hero-faa-home .form input {
+		color: #9e9e9e;
+		height: 40px;
+		font-size: 15px;
+		font-weight: 300;
+	}
+  .hero-faa-home .form input.btn {
+		color: #ffffff;
+	}
+  .faa_sponsored-by img {
+    margin-left: 10px;
+    max-width: 140px;
+  }
+  .faa_sponsored-by .logo-2 img {
+  	margin-top: 10px;
+  }
+}

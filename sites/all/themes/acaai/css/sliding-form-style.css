@@ -1,0 +1,211 @@
+#wrapper{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    background:url(../images/test-bg.jpg) no-repeat center;
+    width:900px;
+    overflow:hidden;
+	padding:0;
+	margin:20px 0 0 0;
+	border:10px solid #F99D21;
+	border-radius:3px;
+	height:500px;
+	font:Arial, "Helvetica", sans-serif;
+}
+
+#steps{
+    width:910px;
+	/*height:320px;*/
+    overflow:hidden;
+}
+.step{
+    float:left;
+    width:910px;
+	padding:0;
+	margin:0;
+	/*height:320px;*/
+}
+#navigation{
+    height:45px;
+	margin-top:-70px;
+	margin-right:20px;
+	float:right;
+	
+}
+#navigation ul{
+    list-style:none;
+	float:left;
+	margin-left:22px;
+}
+#navigation ul li{
+	float:left;
+    position:relative;
+	margin:0px 2px;
+}
+#navigation ul li a{
+    display:block;
+    height:10px;
+	width:10px;
+	font-size:12px;
+    background-color:#2185C1;
+    color:#333;
+    outline:none;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:10px;
+    padding:1px 1px;
+	border-radius:10px;
+	cursor:default;
+}
+#navigation ul li a:hover,
+#navigation ul li.selected a,
+#navigation ul li a:focus {
+   
+}
+span.checked{
+    background-color:#F99D21;
+    position:absolute;
+    top:0;
+    left:0;
+    width:10px;
+    height:10px;
+	padding:1px 1px;
+	border-radius:10px;
+}
+span.error{
+    background:red;
+    position:absolute;
+    top:0px;
+    left:1px;
+    width:20px;
+    height:20px;
+}
+
+#steps form fieldset{
+    border:none;
+    padding-bottom:20px;
+	margin-bottom:60px;
+	text-align:center;
+	height:380px;
+	position:relative;
+}
+
+#steps form legend{
+    color:#fff;
+    font-size:28px;
+    font-weight:bold;
+    width:100%;
+	text-align:center;
+    margin:0px;
+	padding:30px 20px 40px;
+	font-weight:200;
+	text-shadow:0px 1px 3px #666;
+}
+#steps form p{
+    margin:5px auto;
+    padding:10px;
+}
+#steps form label{
+	display:block;
+	color:#fff;
+	font-size:18px;
+	text-shadow:1px 1px 1px #333;
+	}
+#steps form table{
+	padding:20px;
+	color:#666;
+	position:absolute;
+	bottom:130px;
+	left:50%;
+	margin-left:-175px;
+	}
+#steps form table td{
+	width:150px;
+	text-align:center;
+	}
+
+#steps form input:focus{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background-color:#FFFEEF;
+}
+input.submit{
+    bottom:150px;
+	left:50%;
+	position:absolute;
+	margin-left:-80px;
+}
+#steps form button {
+	border:2px solid #CF6D00;
+	outline:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    cursor:pointer;
+    margin: 0px auto;
+    clear:both;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+    font-weight:bold;
+    font-family:"Century Gothic", Helvetica, sans-serif;
+    font-size:22px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background-image: linear-gradient(bottom, rgb(249,125,1) 32%, rgb(253,161,1) 66%);
+	background-image: -o-linear-gradient(bottom, rgb(249,125,1) 32%, rgb(253,161,1) 66%);
+	background-image: -moz-linear-gradient(bottom, rgb(249,125,1) 32%, rgb(253,161,1) 66%);
+	background-image: -webkit-linear-gradient(bottom, rgb(249,125,1) 32%, rgb(253,161,1) 66%);
+	background-image: -ms-linear-gradient(bottom, rgb(249,125,1) 32%, rgb(253,161,1) 66%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.32, rgb(249,125,1)),
+		color-stop(0.66, rgb(253,161,1))
+	);
+}
+#steps form button:hover {
+}
+a.next, a.previous{
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	cursor:pointer;
+	}
+	
+a.next.start{
+	position:absolute;
+	bottom:100px;
+	left:50%;
+	margin-left:-80px;
+	}
+.step h2{
+	height:150px;
+	color:#fff;
+	font-weight:100;
+	font-size:20px;
+	}
+.step table{
+	margin:0 auto;
+	position:static;
+	bottom:0;
+	}
+.test-title{
+	text-align:center;
+	color:#fff;
+	padding:20px 0;
+	text-shadow:0px 1px 2px #000;
+	}
+.testbox{
+	margin:10px auto;
+	padding:0px 50px 10px;
+	width:800px;
+	height:250px;
+	color:#fff;
+	}
